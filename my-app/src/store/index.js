@@ -1,12 +1,29 @@
 import { createStore } from 'vuex'
+import repository from './repository';
+import axios from 'axios';
 
-export default createStore({
+const store = createStore({
+
   state: {
+
+   
   },
-  mutations: {
+
+  getters:{
+   
   },
-  actions: {
+
+  mutations:{
+
   },
-  modules: {
-  }
-})
+
+  actions:{
+   
+  },
+
+  modules: { 
+    repository: repository
+  },
+});
+
+export default store;

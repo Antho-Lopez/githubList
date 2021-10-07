@@ -1,12 +1,12 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h1 class="fw-bold text-uppercase">{{ msg }}</h1>
     <p>Page de présentation : Création d'un outil qui permet de lister nos projets Github grâce à l'API de github.</p>
-    
-    <div class="btn-group" role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-primary">Left</button>
-      <button type="button" class="btn btn-primary">Middle</button>
-      <button type="button" class="btn btn-primary">Right</button>
+
+    <div class="btn-group mt-4" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-dark btn-lg">Boutton pour le style</button>
+      <button type="button" class="btn btn-dark btn-lg">Boutton pour le style</button>
+      <button type="button" class="btn btn-dark btn-lg">Boutton pour le style</button>
     </div>
 
   </div>

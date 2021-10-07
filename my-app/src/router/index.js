@@ -12,7 +12,14 @@ const routes = [
     name: 'ProjectsList',
    
     component: () => import(/* webpackChunkName: "ProjectsList" */ '../views/ProjectsList.vue')
-  }
+  },
+
+  {
+    path: '/one-project/:owner?:name?',
+    name: 'OneProject',
+
+    component: () => import('../views/OneProject.vue')
+  },
 ]
 
 const router = createRouter({
