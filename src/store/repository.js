@@ -26,7 +26,7 @@ const repository = {
 
         async getRepos(context) {
             axios.defaults.headers.common = {
-              "Authorization": "Token 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",
+              "Authorization": "Token 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",
             };
             const response = await axios.get(context.state.url);
             console.log(response);
