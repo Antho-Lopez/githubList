@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Accueil</router-link> |
+    <router-link to="/projects-list">Projets Github</router-link>
   </div>
   <router-view/>
 </template>
@@ -17,14 +17,24 @@
 
 #nav {
   padding: 30px;
+  background-color: rgb(56, 56, 56);
 }
 
 #nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: white;
+  font-size: 1.5vw;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  color: rgb(187, 187, 187);
+  text-decoration: underline;
 }
 
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+
 </style>
