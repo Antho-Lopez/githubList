@@ -54,6 +54,7 @@ export default {
    created: function() {
       axios
         .get(`https://api.github.com/repos/${this.$route.params.owner}/${this.$route.params.name}`)
+        
         .then(response => {
             this.repoInfos = response.data;
             console.log(response.data)
